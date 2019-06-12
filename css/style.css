@@ -1,0 +1,67 @@
+h6 {
+  font-size: 1.2rem;
+}
+
+b {
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  border-top: 2px #cccccc dashed;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 850px;
+}
+
+.vspace {
+  height: 2em;
+}
+
+table.noborder tr {
+  vertical-align: top;
+}
+
+table.noborder td {
+  padding: 0.2em;
+}
+
+.portrait {
+  border-radius: 50%;
+  width: 90%;
+}
+
+@media screen and (max-width: 576px) {
+  .portrait {
+    width: 50%;
+  }
+}
+
+.teaser {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.align-middle {
+  align-items: center;
+}
+
+ol {
+  padding-left: 1.5em;;
+}
+
+ul {
+  padding-left: 1.5em;
+}
+
+.others {
+  text-align: center;
+}
+
+footer {
+  padding: 0.5em;
+  color: rgba(255, 255, 255, 0.5);
+}
