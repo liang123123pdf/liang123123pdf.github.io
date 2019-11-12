@@ -59,6 +59,28 @@
           </div>
         </div>
         <br>
+        <body>
+    <!--这里dic里面便是需要获取的内容-->
+    <dic>欢迎前往 Amayaliu.cn - Amaya丶夜雨博客</dic>
+    <a class="btn" href="https://amayaliu.cn" data-clipboard-action="copy" data-clipboard-target="dic">Copy</a>
+ 
+    <!--采用cdn加速的 clipboard.js-->
+    <script src="https://cdn.bootcss.com/clipboard.js/1.5.1/clipboard.js"></script>
+ 
+    <!--创建对象，同时新建方法，我们调试的时候可以看见-->
+    <script>
+    var clipboard = new Clipboard('.btn');
+ 
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+ 
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+    </body>
+
       </div>
  
 
